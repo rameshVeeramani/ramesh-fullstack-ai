@@ -16,6 +16,7 @@ const conversationMessages = [
 
 const currencyConversionFunction = async ({ data }) => {
   const matches = data.match(/(\d+)\s+(\w+)\s+to\s+(\w+)/i);
+  console.log("ramesh veeramani calling invokign custome function ");
   if (!matches) {
     return 'Error: Invalid format. Please use format \'convert 100 "USD" to "EUR"\'.';
   }
