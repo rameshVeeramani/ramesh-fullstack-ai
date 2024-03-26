@@ -40,7 +40,7 @@ const query = async () => {
     temperature: 0,
     messages: [
       {
-        role: 'assistant',
+        role: 'system',
         content:
           'You are my assistant. Your task is to learn the documents sent to you. I will ask questions about it. The documents are about flight reservations on Singapore Airlines. When I ask a question and I say "I", that always refer to me, the one who asks the question.',
       },
